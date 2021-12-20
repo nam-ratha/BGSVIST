@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+body{
+    background-color: #EEC8C8;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-family: 'Imperial Script', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+.container{
+    background-color: rgb(245, 170, 170);
+    padding: 1%;
+    font-style: normal;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+   
+}
+h1{
+    color:rgb(51,17,186);
+    font-family: 'Yuji Hentaigana Akari', cursive; 
+}
+.container h3{
+    background-color: rgb(196, 189, 221);
+    color:brown;
+    padding: 1%;
+    font-style: italic;
+    text-decoration:turquoise;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    word-spacing: 0.8em;
+}
+div{
+    font-size: 15px;
+}
+p{
+    color:hsl(339,87%,20%);
+    font-family:'Imperial Script', Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+#second-p{
+    color:rgb(99, 99, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+#box-model{
+    background-color: lightgrey;
+    width:300px;
+    border :15px solid #dd4c13;
+    padding: 50px;
+    margin:5px 10px;
+}
+.categories{
+    border: 1px solid rgb(92,85,85);
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center ;
+}
+.categories ul{
+    padding:0;
+    list-style: none;
+}
+.categories a{
+    text-decoration: none;
+    color:black;
+
+}
+.categories a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.categories li{
+    padding-bottom:6px ;
+    border: 1px dashed #fff;
+}
+.my-form{
+    padding:20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.my-form .form-group{
+    padding-bottom: 15px;;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+    border: #3e8e41;
+    border-radius: 15px;
+    background-color:#ffefd5;
+    font-size: medium;
+}
+.button{
+    display:inline-block;
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #3e8e41;
+}
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
